@@ -27,4 +27,5 @@ model toDo {
   description String
   done        Boolean @default(false)
   user_Id     Int
+  city        String
 }
